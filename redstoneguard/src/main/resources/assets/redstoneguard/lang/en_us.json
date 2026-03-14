@@ -1,0 +1,37 @@
+{
+  "redstoneguard.screen.title": "Active Farms Detected!",
+  "redstoneguard.screen.warning": "Your farms are still running.",
+  "redstoneguard.screen.active_count": "Active indicators found: %d",
+  "redstoneguard.screen.leave_countdown": "Leave World (%ds)",
+  "redstoneguard.screen.leave": "Leave World",
+  "redstoneguard.screen.stay": "Stay",
+  "redstoneguard.screen.countdown_hint": "Please wait before leaving...",
+
+  "redstoneguard.config.title": "Protect My Redstone Configuration",
+  "redstoneguard.config.category.general": "General",
+
+  "redstoneguard.config.enabled": "Enable Protect My Redstone",
+  "redstoneguard.config.enabled.tooltip": "When enabled, a warning screen appears if you try to log out while active farms are detected in any loaded chunk.",
+
+  "redstoneguard.config.threshold": "Detection Threshold",
+  "redstoneguard.config.threshold.tooltip": "How many active indicators must be found before the warning is shown.",
+
+  "redstoneguard.config.countdown": "Warning Countdown",
+  "redstoneguard.config.countdown.tooltip": "Seconds to wait before the Leave World button becomes available.",
+
+  "redstoneguard.config.components": "Tracked Components",
+  "redstoneguard.config.components.pistons": "Moving Pistons",
+  "redstoneguard.config.components.pistons.tooltip": "Toggles if moving pistons count towards the total.",
+  "redstoneguard.config.components.comparators": "Powered Comparators",
+  "redstoneguard.config.components.comparators.tooltip": "Toggles if powered comparators count towards the total.",
+  "redstoneguard.config.components.repeaters": "Powered Repeaters",
+  "redstoneguard.config.components.repeaters.tooltip": "Toggles if powered repeaters count towards the total.",
+  "redstoneguard.config.components.observers": "Powered Observers",
+  "redstoneguard.config.components.observers.tooltip": "Toggles if powered observers count towards the total.",
+  "redstoneguard.config.components.poweredRails": "Powered Rails",
+  "redstoneguard.config.components.poweredRails.tooltip": "Toggles if active powered rails count towards the total.",
+  "redstoneguard.config.components.detectorRails": "Detector Rails",
+  "redstoneguard.config.components.detectorRails.tooltip": "Toggles if detector rails with a minecart on them count towards the total.",
+  "redstoneguard.config.components.sculkSensors": "Sculk Sensors",
+  "redstoneguard.config.components.sculkSensors.tooltip": "Toggles if active sculk sensors and calibrated sculk sensors count towards the total."
+}

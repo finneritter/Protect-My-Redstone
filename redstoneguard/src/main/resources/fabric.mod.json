@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "redstoneguard",
+  "version": "${version}",
+  "name": "Protect My Redstone",
+  "description": "Warns you when you try to log out with active redstone farms running in any loaded chunk.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.redstoneguard.RedstoneguardMod"
+    ],
+    "modmenu": [
+      "com.redstoneguard.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "redstoneguard.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "cloth-config2": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
