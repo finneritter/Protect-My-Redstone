@@ -2,10 +2,6 @@
 
 A client-side Fabric mod for Minecraft 1.21.11 that warns you before disconnecting while active redstone farms are running in any loaded chunk.
 
-## The Problem
-
-You're on an SMP server. Your iron farm, sugarcane farm, or sorting system is ticking away. You hit "Disconnect" out of habit — and now your farms sit broken until you log back in. Protect My Redstone intercepts the disconnect and shows a warning screen so you never make that mistake again.
-
 ## Features
 
 - **Active redstone detection** — Scans all loaded chunks (including chunk-loader-kept distant chunks) for moving pistons, powered comparators, repeaters, observers, sculk sensors, powered rails, and more
